@@ -10,3 +10,19 @@ body {
 .App {
   text-align: center;
 }
+
+.hidden {
+  visibility: hidden;
+}
+
+#divider {
+  margin-top: 10px;
+}
+
+#displayBTN {
+  margin-top: 10px;
+}
+
+.user {
+  font-weight: bold;
+}

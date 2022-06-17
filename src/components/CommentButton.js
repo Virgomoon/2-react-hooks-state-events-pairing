@@ -1,6 +1,6 @@
 import React from "react";
 
-function CommentButton({isHidden, onIsHidden, comments}) {
+function CommentButton({isHidden, onIsHidden, number}) {
 
     const displayText = isHidden ? "Hide Comments" : "Show Comments"
 
@@ -10,7 +10,7 @@ function CommentButton({isHidden, onIsHidden, comments}) {
         
         <div id="divider" style={{ borderTop: "2px solid gray ", marginLeft: 20, marginRight: 20 }}></div>
 
-        <p className="user">{comments.length} Comments</p>
+        <p className="user">{number} Comments</p>
         </>
     )
 

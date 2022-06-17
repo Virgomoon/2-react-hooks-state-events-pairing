@@ -4,7 +4,7 @@ function Comments({comments, isHidden}) {
 
     // console.log(comments.length)
     
-      const showComments =  comments.map((item)=>{
+      const showComments = (comments||[]).map((item)=>{
             return(
             <div key={item.id}>
                 <p className="user">
